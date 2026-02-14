@@ -1,0 +1,294 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+i{
+    color: white;
+}
+.hero-section{
+    background-image: url("./Images/IN-en-20260202-TRIFECTA-perspective_04f5de39-b518-493c-9a8d-6aef11af0457_large.jpg");
+    height: 100vh;
+}
+.shade{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    position: relative;
+}
+.head{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 0px 100px;
+}
+
+.right-head {
+    height: 50px;
+    width: 20%;
+    gap: 2%;
+    padding: 0px 0px 0px 5px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.language-btn{
+    height: 40px;
+    width: 33%;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+.sign-btn{
+    background-color: red;
+    color: white;
+    padding: 11px 15px 11px 15px;
+    border-radius: 4px;
+    border: none;
+    /* border: 1px solid white; */
+}
+.right-head{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.main-area{
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.contn-1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contn-2{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contn-3{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.inpt-box{
+    padding: 17px 300px 17px 10px;
+    border-radius: 6px;
+    font-size: 17px;
+}
+.contn-4{
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+.getStarted-btn{
+    padding: 14px 25px 14px 23px;
+    background-color: red;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    border: none;
+    border-radius: 2px;
+}
+.arc{
+    border-top: 5px solid red;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    bottom: 20px;
+    height: 50vh;
+    border-radius: 44%;
+}
+.arc-main{
+    height: 60vh;
+    background-color: black;
+    /* background-image:radial-gradient(black gray); */
+}
+.trending-cntnt{
+    height: 00px;
+    margin: 80px 150px 0px 150px;
+}
+.trndg-head{
+    margin: 0px 0px 0px 15px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 15px 0px 15px 0px;
+}
+.card-container{
+    /* border: 2px solid red; */
+    height: 270px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns:2fr 2fr 2fr 2fr 2fr 2fr;  
+}
+.cards{
+    /* border: 2px solid greenyellow; */
+    height: 268px;
+    width: 183px;
+    position: relative;
+    
+}
+.cards:hover{
+    transform: scale(1.05);
+}
+.cards img{
+    border-radius: 5px;
+}
+.cards .Nums{
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    font-size: 100px;
+    color: black;
+    -webkit-text-stroke: 2px white;
+}
+.Nums{
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+.features-cntnt{
+    height: 300px;
+    margin: 50px 150px 100px 150px;
+    /* border: 2px solid red; */
+}
+.features-head{
+    margin: 0px 0px 0px 15px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 15px 0px 15px 0px;
+}
+.features-container{
+    /* border: 2px solid red; */
+    height: 304px;
+    display: grid;
+    grid-template-columns:3fr 3fr 3fr 3fr;  
+    justify-content: space-between;
+    display: flex;
+    /* gap: 25px; */
+}
+.features-cards{
+    border: 2px solid greenyellow;
+    height: 300px;
+    width: 295px;
+    border-radius: 35px;
+    position: relative;
+    margin-left: 20px;
+    background: linear-gradient(to top left,#1d0a0a, #0f1020, #262e50);
+
+}
+.features-cards div{
+    padding: 20px;
+}
+.features-cards h2{
+    color: white;
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.features-cards p{
+    margin-top: 25px;
+    color: white;
+    word-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+}
+.features-cards .features-Nums{
+    position: absolute;
+    top: 70%;
+    right: 5%;
+    font-size: 100px;
+    color: black;
+     -webkit-text-stroke: 2px white;
+}
+.features-Nums{
+    font-weight: bolder;
+    text-shadow: 0px 0px 12px white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.faq-title{
+   height: 80px;
+   display: flex;
+   align-items: center;
+   padding: 0px 40px 0px 40px;
+   justify-content: space-between;
+   background-color: #2d2d2d;
+   margin: 10px 150px 0px 150px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   /* font-weight: bold; */
+   color: white;
+}
+.faq-title{
+    font-size: 24px;
+}
+
+.faq{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin: 0px 0px 20px 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer{
+    height: 100vh;
+    margin: 50px 150px 10px 150px;
+    /* border: 2px solid red; */
+}
+
+
+
+
+.main-foot{
+    color: white;
+    margin: 50px 0px 0px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+.foot ul{
+    color:grey;
+    list-style: none;
+    line-height: 32px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+.clr{
+    color:grey;
+}
+.btnss{
+    margin-top: 50px;
+    height: 40px;
+    width: 9%;
+    background: none;
+    color: white;
+}
+.ntflx{
+    margin-top: 50px;
+    color:grey;
+}
